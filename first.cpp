@@ -1,31 +1,28 @@
-/*
-print the pattern
-****
-****
-****
+//wap to taking intput in integer 
 
-*/
-# include<iostream>
-using namespace std;
-
+#include<iostream>
+using namespace std; 
 int main(){
+     int num =2;
+     cout<<endl;
 
-    int n;
+    switch(num){
 
-    cout<<"enter the number"<<endl;
-    cin>>n;
-    int i=1;
-
-    while(i<=n){
-        int j=1;
-
-        while(j<=n){
-            cout<<"*";
-            j=j+1;
-        }
         cout<<endl;
+         case 1: cout<<"first number"<<endl;
+         break;
 
-        i=i+1;
+         case 2: cout<<"second number"<<endl;
+         break;
+
+         case 3:cout<<"third number"<<endl;
+         break;
+
+         default:cout<<"this is the default value"<<endl;
+
 
     }
+
+    cout<<endl;
+    return 0;
 }

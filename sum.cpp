@@ -1,13 +1,15 @@
 # include<iostream>
-using namespace std;
+using namespace std; 
 int main(){
-    int arr[3]={4,3,6};
+    int arr[4]={8,9,7,6,};
+    int n=4;
     int sum=0;
+    for(int i=0;  i<n; i++){
+        sum = sum+ arr[i];
 
-    for(int i=0; i<3; i++){
-        sum= sum+arr[i];
-        
+
     }
-    cout<<"sum off array is: "<<sum<<endl;
+    cout<<"sum: " <<sum;
     return 0;
+
 }
